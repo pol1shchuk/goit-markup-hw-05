@@ -510,6 +510,7 @@ body{
         justify-content: center;
         align-items: center;
         min-width: 165px;
+        height: 40px;
         border-radius: 4px;
         background: var(--IRIS, #4D5AE5);
         border: none;
