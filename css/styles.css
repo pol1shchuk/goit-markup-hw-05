@@ -455,7 +455,77 @@ body{
       .footer-logo-box{
         margin-right: 120px
       }
+      .footer-form{
+        margin: 0 0 0 80px;
+        display: flex;
+        flex-direction: column;
+      }
+      .footer-form-text{
+        margin-bottom: 16px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+      }
 
+      .footer-form-style{
+        display: flex;
+        gap: 24px;
+      }
+      
+      .footer-form-label{
+        color: #fff;
+        font-weight: 500;
+        margin: 0 0 16px 0;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+      }
+
+      .footer-form-input{
+        background-color: transparent;
+        font-size: 12px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        color: #ffffff;
+        border-radius: 4px;
+        border: 1px solid var(--WHITE, #FFF);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        width: 264px;
+        height: 40px;
+        padding: 8px 0 8px 16px;
+      }
+      
+      .footer-form-input::placeholder{
+        color: var(--WHITE, #ffffff);
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.04em;
+      }
+      
+      .footer-form-button{
+        padding: 8px 24px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 165px;
+        border-radius: 4px;
+        background: var(--IRIS, #4D5AE5);
+        border: none;
+        color: #FFF;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+      }
+
+      .footer-form-svg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 16px;
+      }
       /* Backdrop styles */
       .backdrop{
         position: fixed;
